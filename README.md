@@ -8,7 +8,7 @@ This workspace contains several Python projects, each organized into its own fol
 This folder contains a script to generate word puzzles where users must identify the correct words from a set of scrambled and correct options.
 
 - **Script**: `count_correct_words.py`
-- **Output**: Generated images of word puzzles are saved in the `output/` directory.
+- **Output**: Generated images of word puzzles are saved in the `output/` directory. Image format is `<goal_word>_<correct_answer_of_count>.png`
 
 ---
 
@@ -16,7 +16,7 @@ This folder contains a script to generate word puzzles where users must identify
 This folder contains a script to generate letter matching puzzles. Users must identify which masked option matches the given letters.
 
 - **Script**: `cut_letters.py`
-- **Output**: Generated puzzles are saved in the `output/` directory, organized by difficulty (`easy/`, `medium/`, `hard/`).
+- **Output**: Generated puzzles are saved in the `output/` directory, organized by difficulty (`easy/`, `medium/`, `hard/`). Image format is `<question_letters>_<correct_option>.png`
 
 ---
 
@@ -24,7 +24,7 @@ This folder contains a script to generate letter matching puzzles. Users must id
 This folder contains a script to generate images with colored text. The task involves counting unique colors used in the image.
 
 - **Script**: `count_colors.py`
-- **Output**: Generated images are saved in the `output/` directory.
+- **Output**: Generated images are saved in the `output/` directory. Image format is `<correct_answer_of_count>_<random_uuid>.png`
 
 ---
 
