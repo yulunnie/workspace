@@ -11,7 +11,7 @@ This folder contains a script to generate word puzzles where users must identify
 - **Output**: Generated images of word puzzles are saved in the `output/` directory. Image format is `<goal_word>_<correct_answer_of_count>.png`
 
 ### Example Output:
-![Example Output](1_count_correct_words\output\ant_1.png)
+![Example Output](1_count_correct_words/output/ant_1.png)
 
 ---
 
@@ -22,7 +22,7 @@ This folder contains a script to generate letter matching puzzles. Users must id
 - **Output**: Generated puzzles are saved in the `output/` directory, organized by difficulty (`easy/`, `medium/`, `hard/`). Image format is `<question_letters>_<correct_option>.png`
 
 ### Example Output:
-![Example Output](2_cut_letters\output\easy\HB_2.png)
+![Example Output](2_cut_letters/output/easy/HB_2.png)
 
 ---
 
@@ -33,7 +33,7 @@ This folder contains a script to generate images with colored text. The task inv
 - **Output**: Generated images are saved in the `output/` directory. Image format is `<correct_answer_of_count>_<random_uuid>.png`
 
 ### Example Output:
-![Example Output](8_count_colors\output\4_1JJI.png)
+![Example Output](8_count_colors/output/4_1JJI.png)
 
 ---
 
@@ -44,7 +44,7 @@ This folder contains a script to generate a 3x3 grid puzzle with clues and answe
 - **Output**: Generated images of the puzzle grid are saved as `clues.png`.
 
 ### Example Output:
-![Example Output](fill_in_matrix\clues.png)
+![Example Output](fill_in_matrix/clues.png)
 
 ---
 
